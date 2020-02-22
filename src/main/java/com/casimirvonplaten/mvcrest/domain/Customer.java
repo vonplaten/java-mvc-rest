@@ -20,7 +20,9 @@ public class Customer {
     private String firstname;
     private String lastname;
 
-    public Customer(){}
+    public Customer(){
+        // def
+    }
 
     public Customer(String fname, String lname){
         this.firstname = fname;
