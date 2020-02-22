@@ -2,11 +2,11 @@
 
 ## Description:
 Spring Initializr project with:
-⋅⋅* Actuator
-⋅⋅* Lombok
-⋅⋅* Web
-⋅⋅* JPA
-⋅⋅* H2 db
+* Actuator
+* Lombok
+* Web
+* JPA
+* H2 db
 
 Endpoint: /api/v1/customers
 Resources: 
