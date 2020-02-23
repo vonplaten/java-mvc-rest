@@ -21,7 +21,6 @@ public class Customer {
     private String lastname;
 
     public Customer(){
-        // def
     }
 
     public Customer(String fname, String lname){

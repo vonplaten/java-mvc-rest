@@ -1,0 +1,9 @@
+version: '2.3'
+services:
+  myjavarest:
+    volumes:
+      - java_restservice_volume:/usr/src
+    command: sleep infinity 
+
+volumes:
+  java_restservice_volume:

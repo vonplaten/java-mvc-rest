@@ -1,0 +1,11 @@
+version: "2.3"
+services:
+  myjavarest:
+    
+    build: .
+    image: myjava
+    ports:
+      - "8080:8080"
+    ipc: host
+    # user: node
+    container_name: myjavarest

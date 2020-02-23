@@ -1,0 +1,23 @@
+
+{
+	"name": "Java RestService",
+	"dockerComposeFile": [
+		"../docker-compose.yml",
+		"docker-compose.yml"
+	],
+	"workspaceFolder": "/usr/src",
+	"service": "myjavarest",
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash",
+	},
+	"extensions": [
+		// "vscjava.vscode-java-pack",
+		// "vscode-spring-initializr"
+	],
+	"shutdownAction": "stopCompose",
+
+	// "postCreateCommand": "/opt/jboss/wildfly/bin/standalone.sh -b 0.0.0.0 -bmanagement 0.0.0.0",
+	// "postCreateCommand": "java -version",
+
+}
+
